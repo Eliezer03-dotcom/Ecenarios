@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-image: url("Imagenes/pastizal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div{
+
+    background-color: white;
+    width: 500px; /* Ancho del div */
+    height: 200px; /* Alto del div */
+    margin: 0 auto; 
+    text-align: center;
+
+}
