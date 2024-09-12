@@ -9,10 +9,11 @@ body{
 
 div{
 
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.5);;
     width: 500px; /* Ancho del div */
     height: 200px; /* Alto del div */
     margin: 0 auto; 
     text-align: center;
+    border-radius: 2%;
 
 }
