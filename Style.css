@@ -18,6 +18,17 @@ body{
 
 }
 
+.mios img{
+    width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.Imagenes_de_mapa{
+    width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+    height: auto; /* Mantiene la proporción de las imágenes */
+
+}
+
 .Galeria {
     display: flex;
     justify-content: center; /* Centra el div horizontalmente */
@@ -34,7 +45,7 @@ body{
 }
 
 .imagen-conter img {
-    width: calc(33.33% - 50px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+    width: calc(35% - 50px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
     height: auto; /* Mantiene la proporción de las imágenes */
 }
 
