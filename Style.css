@@ -7,7 +7,7 @@ body{
 
 }
 
-div{
+.mycontainer{
 
     background-color:rgba(255, 255, 255, 0.5);;
     width: 500px; /* Ancho del div */
@@ -16,4 +16,56 @@ div{
     text-align: center;
     border-radius: 2%;
 
+}
+
+.Galeria {
+    display: flex;
+    justify-content: center; /* Centra el div horizontalmente */
+    align-items: center; /* Centra el div verticalmente */
+    height: 100vh; /* La altura del contenedor será del 100% de la pantalla */
+}
+
+.imagen-conter {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente fila */
+    width: 1000px; /* Ancho del div */
+    height: auto; /* Alto ajustable para las filas */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.imagen-conter img {
+    width: calc(33.33% - 50px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%); /* Para iconos oscuros, puedes ajustarlo según necesites */
+}
+
+footer p {
+    margin: 5px 0;
 }
