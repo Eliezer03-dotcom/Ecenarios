@@ -34,6 +34,7 @@ body{
     justify-content: center; /* Centra el div horizontalmente */
     align-items: center; /* Centra el div verticalmente */
     height: 100vh; /* La altura del contenedor será del 100% de la pantalla */
+    margin-bottom: 7%;
 }
 
 .imagen-conter {
