@@ -1,83 +1,235 @@
-body{
-    text-align: center;
-    background-image: url("Imagenes/pastizal.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
-.mycontainer{
-
-    background-color:rgba(255, 255, 255, 0.5);;
-    width: 500px; /* Ancho del div */
-    height: 200px; /* Alto del div */
-    margin: 0 auto; 
-    text-align: center;
-    border-radius: 2%;
-
-}
-
-.mios img{
-    width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
-    height: auto; /* Mantiene la proporción de las imágenes */
-}
-
-.Imagenes_de_mapa{
-    width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
-    height: auto; /* Mantiene la proporción de las imágenes */
-
-}
-
-.Galeria {
-    display: flex;
-    justify-content: center; /* Centra el div horizontalmente */
-    align-items: center; /* Centra el div verticalmente */
-    height: 100vh; /* La altura del contenedor será del 100% de la pantalla */
-    margin-bottom: 7%;
-}
-
-.imagen-conter {
-    display: flex;
-    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente fila */
-    width: 1000px; /* Ancho del div */
-    height: auto; /* Alto ajustable para las filas */
-    gap: 10px; /* Espacio entre las imágenes */
-}
-
-.imagen-conter img {
-    width: calc(35% - 50px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
-    height: auto; /* Mantiene la proporción de las imágenes */
-}
+@media (min-width: 1024px) {
 
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+    body{
+        text-align: center;
+        background-image: url("Imagenes/pastizal.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
+    
+    .mycontainer{
+    
+        background-color:rgba(255, 255, 255, 0.5);;
+        width: 500px; /* Ancho del div */
+        height: 200px; /* Alto del div */
+        margin: 0 auto; 
+        text-align: center;
+        border-radius: 2%;
+    
+    }
+    .mycontainer1{
+    
+        background-color:rgba(255, 255, 255, 0.5);;
+        width: 500px; /* Ancho del div */
+        height: 200px; /* Alto del div */
+        margin: 0 auto; 
+        text-align: center;
+        border-radius: 2%;
+    
+    }
+    
+    .mios img{
+        width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+    
+    .Imagenes_de_mapa{
+        width: calc(50% - 30px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    
+    }
+    
+    .Galeria {
+        display: flex;
+        justify-content: center; /* Centra el div horizontalmente */
+        align-items: center; /* Centra el div verticalmente */
+        height: 100vh; /* La altura del contenedor será del 100% de la pantalla */
+        margin-bottom: 7%;
+    }
+    
+    .imagen-conter {
+        display: flex;
+        flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente fila */
+        width: 1000px; /* Ancho del div */
+        height: auto; /* Alto ajustable para las filas */
+        gap: 10px; /* Espacio entre las imágenes */
+    }
+    
+    .imagen-conter img {
+        width: calc(35% - 50px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+    
+    
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .social-icons {
+        margin: 10px 0;
+    }
+    
+    .social-icons a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(100%); /* Para iconos oscuros, puedes ajustarlo según necesites */
+    }
+    
+    footer p {
+        margin: 5px 0;
+    }
+    
+    .buttons {
+        display: none;
+    }
 
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.social-icons {
-    margin: 10px 0;
-}
+  }
 
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
 
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    filter: invert(100%); /* Para iconos oscuros, puedes ajustarlo según necesites */
-}
+  @media (max-width: 600px) {
+    
+    body{
+        text-align: center;
+        background-image: url("Imagenes/pastizal.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
+    
+    .mycontainer{
+    
+        background-color:rgba(255, 255, 255, 0.5);;
+        width: 300px; /* Ancho del div */
+        height: 250px; /* Alto del div */
+        margin: 0 auto; 
+        text-align: center;
+        border-radius: 2%;
+    
+    }
 
-footer p {
-    margin: 5px 0;
-}
+    .mycontainer1{
+    
+        background-color:rgba(255, 255, 255, 0.5);;
+        width: 300px; /* Ancho del div */
+        height: 180px; /* Alto del div */
+        margin: 0 auto; 
+        text-align: center;
+        border-radius: 2%;
+    
+    }
+    
+    .mios img{
+        width: calc(80% - 20px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+    
+    .Imagenes_de_mapa{
+        width: calc(85% - 20px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    
+    }
+    
+
+
+    .Galeria {
+        display: flex;
+        justify-content: center; /* Centra el div horizontalmente */
+        align-items: center; /* Centra el div verticalmente */
+        height: 40vh; /* La altura del contenedor será del 100% de la pantalla */
+        margin-bottom: 5%;
+    }
+    
+    .imagen-conter {
+        display: flex;
+        /*overflow: hidden;*/
+        transition: transform 0.5s ease-in-out;
+        position: relative;
+        /*flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente fila */
+        width: 400px; /* Ancho del div */
+        height: auto; /* Alto ajustable para las filas */
+        border: 2px solid #333;
+    }
+    .modelos {
+        min-width: 400px; /* Ajusta según el tamaño de las imágenes */
+    }
+    
+
+    
+    .imagen-conter img {
+        width: calc(100% - 0px); /* Ajusta el ancho de las imágenes para que ocupen 3 en una fila */
+        height: auto; /* Mantiene la proporción de las imágenes */
+        object-fit: cover;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .buttons button {
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .buttons button:hover {
+        background-color: #555;
+    }
+
+    
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .social-icons {
+        margin: 10px 0;
+    }
+    
+    .social-icons a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(100%); /* Para iconos oscuros, puedes ajustarlo según necesites */
+    }
+    
+    footer p {
+        margin: 5px 0;
+    }
+
+  }
+
+
